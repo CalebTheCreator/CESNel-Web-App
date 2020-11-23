@@ -1,0 +1,33 @@
+#header
+{
+    height: 8rem;   
+}
+
+.hobby
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32;
+
+    border-color: rgb(230, 20, 200);
+    border-width: 5px;
+    border-style: solid;
+    
+    padding: 50px;
+    background: blueviolet;
+}
+
+.allMenus
+{
+    display: none;
+    border-bottom: 1px solid black;
+
+    position: absolute;
+    right: 16px;
+    top: 80px;
+    padding 10px;
+}
+
+#projects
+{
+    background: orange;
+}

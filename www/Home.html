@@ -1,0 +1,47 @@
+<html>
+	<head>
+	<title> KSN </title>
+	<link rel="stylesheet" type="text/css" href="siteStyle.css">
+	<script>
+
+		function show(id)
+		{
+			closeAllMenus();
+			var div = document.getElementById(id);
+			div.style.display = "block";
+		}
+
+		function hide(id)
+		{
+			var div = document.getElementById(id);
+			div.style.display = "block";
+		}
+
+		function closeAllMenus()
+		{
+			hide('projects');
+		}
+	</script>
+
+	</head>
+	
+	<body>
+		<div id = "header">
+			
+			<div style = "left">
+			</div>
+			<div style = "float: right">
+				Home | <a href="Intermezzo.html"> Intermezzo </a> | <a href="Culinary.html"> Culinary </a> | <a href="health.html"> Health </a>
+			</div>
+
+		</div>
+		<div id="projects" class="allMenus" onmouseleave="hide('projects')"> 
+		</div>
+
+			<div>
+				<p><span class = "hobby"> Contact Information</p></span>
+				<p class = "hobby"> Facebook:</p> </p>
+				<p class = "hobby"> Email:</p> </p>	
+			</div>
+	</body>
+</html>
