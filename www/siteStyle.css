@@ -5,21 +5,21 @@
 
 .hobby
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32;
 
-    border-color: rgb(230, 20, 200);
-    border-width: 5px;
+    border-color: rgb(189, 1, 160);
+    border-width: 0px;
     border-style: solid;
     
     padding: 50px;
-    background: blueviolet;
+    <!background: rgb(209, 209, 209);>
 }
 
 .allMenus
 {
     display: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(156, 184, 0);
 
     position: absolute;
     right: 16px;
