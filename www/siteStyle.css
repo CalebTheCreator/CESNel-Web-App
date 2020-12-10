@@ -3,6 +3,12 @@
     height: 8rem;   
 }
 
+#heading
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 42;
+}
+
 .hobby
 {
     font-family: Arial, Helvetica, sans-serif;
@@ -34,3 +40,60 @@
 {
     background: orange;
 }
+
+.Home
+{
+    background: rgb(167, 11, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32;
+    color: rgb(1, 188, 221);
+}
+
+.Intermezzo
+{
+    background: rgb(18, 18, 143);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32;
+    color: rgb(187, 159, 0);
+}
+
+.navButtons
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32;
+    background-color: chartreuse;
+    height: 8rem;
+}
+
+.Vibrance
+{
+    background: rgb(24, 66, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32;
+    color: rgb(7, 255, 243);
+}
+
+.aNewDawn
+{
+    background-image: url("media\images/KSNLogoForNewDawnBackground.JPG");
+}
+
+getting background image
+{
+    background-image: url ();
+}
+
+.paragraphs
+{
+    margin-left: 40px;
+    font-size: 26;
+}
+
+.culinary
+{
+    background: rgb(153, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32;
+    color: rgb(138, 117, 0);
+}
+
