@@ -1,8 +1,3 @@
-#header
-{
-    height: 8rem;   
-}
-
 #heading
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,19 +17,6 @@
     <!background: rgb(209, 209, 209);>
 }
 
-.allMenus
-{
-    display: none;
-    border-bottom: 1px solid rgb(156, 184, 0);
-
-    position: absolute;
-    right: 16px;
-    top: 80px;
-    padding 10px;
-
-    border-color: rgb(168, 144, 9)); <! Intermezzo words in gold, background in glossy navy blue>
-                                        <!spice box chilli for culinary page>
-}
 
 #projects
 {
@@ -73,16 +55,6 @@
     color: rgb(7, 255, 243);
 }
 
-.aNewDawn
-{
-    background-image: url("media\images/KSNLogoForNewDawnBackground.JPG");
-}
-
-getting background image
-{
-    background-image: url ();
-}
-
 .paragraphs
 {
     margin-left: 40px;
@@ -96,4 +68,15 @@ getting background image
     font-size: 32;
     color: rgb(138, 117, 0);
 }
+
+.footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(117, 0, 0);
+    color: white;
+    text-align: center;
+  }
 

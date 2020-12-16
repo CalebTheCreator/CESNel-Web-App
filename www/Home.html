@@ -2,31 +2,22 @@
 	<head>
 	<title> KSN </title>
 	<link rel="stylesheet" type="text/css" href="siteStyle.css">
-	<script>
-
-		function show(id)
-		{
-			closeAllMenus();
-			var div = document.getElementById(id);
-			div.style.display = "block";
-		}
-
-		function hide(id)
-		{
-			var div = document.getElementById(id);
-			div.style.display = "block";
-		}
-
-		function closeAllMenus()
-		{
-			hide('projects');
-		}
-	</script>
 
 	</head>
+	<script>function showImage()
+		{
+			imageDiv = document.getElementById("specialDiv")
+			imageDiv.style.display = "block"
+		}
+		
+		function hideImage()
+		{
+			imageDiv = document.getElementById("specialDiv")
+			imageDiv.style.display = "none"
+		}</script>
 	
 	<body class = "Home">
-		<div id = "header">
+		<div id = "Heading">
 			
 			<div style = "left">
 			</div>
@@ -34,9 +25,15 @@
 				<a class = "hobby" href="Home.html"> Home</a> <a class = "hobby" href="Intermezzo.html"> Intermezzo </a>  <a class = "hobby" href="Culinary.html"> Culinary </a>  <a class = "hobby" href="ANewDawn.html"> A New Dawn </a> <a class = "hobby" href="Vibrance.html"> Vibrance </a>
 			</div>
 
+			<div class="usesDiv" onmouseenter="showImage()" onmouseleave="hideImage()">
+				Karen B. Schofield-Nel
+			</div>
+			
+			<div id="specialDiv"  style="display:none; width: 500px; height: 500; position: fixed; left 100px; top: 300px">
+				<img src="media/images/Conducting.jpg">
+			</div>
+
 			<div>
-				<img src = "media\images/Stick-figure.png">
-				<p><span class = "hobby"> Karen B. Schofield-Nel</p></span>
 				<p><span class = "hobby" >Professional Profile:</p></span>
 				<img src = "media\images/Professional Profile Page 1.JPG">
 				<img src = "media\images/Professional Profile Page 2.JPG">
@@ -59,6 +56,10 @@
 				<p><span class = "hobby"> Contact Information</p></span>
 				<a class = "hobby" href="https://www.linkedin.com/in/karen-schofield-nel-8899a325/">LinkedIn: Karen Schofield-Nel</a>
 				<p><span class = "hobby"> Email: Karenbnel@gmail.com</p> </span>	
+			</div>
+			<div id = "footer">
+				<br>
+				Made by Caleb Nel
 			</div>
 	</body>
 </html>
